@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1 0 auto; /* Ocupa el espacio disponible en la página */
+  }
+  
+  .footer {
+    flex-shrink: 0; /* Asegura que el footer no se encoge más allá de su altura */
+  }
+  .carousel-item img {
+    width: 500px; /* o un valor específico, por ejemplo, 500px */
+    max-height: 705px; /* ajusta esto a la altura deseada */
+}
+  
